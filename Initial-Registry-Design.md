@@ -26,26 +26,24 @@ Registry Fields Design
 ======================
 
 Registry Fields 
-dpn\_object\_id: UUID 
-local\_id: Bla-repository-specific
-first\_node\_name: source repository 
-replicating\_node\_names: \[hathi,
-chron, sdr\] 
-version\_number: number 
-previous\_version\_object\_id: UUID to previous version 
-forward\_version\_object\_id: UUID to next version or nil 
-first\_version\_object\_id: UUID 
-fixity\_algorithm: sha256
-fixity\_value: some sha256 value 
-last\_fixity\_date: ISO 8601
-creation\_date: ISO 8601 
-last\_modified\_date: ISO 8601   
-bag\_size: number of bytes of the serialized bag 
-brightening\_object\_id: \[UUID1... UUIDn\] 
-rights\_object\_id: reference to DPN and repository agreements \[UUID1 ... UUIDn\] 
-object\_type: "data" | "rights" | "brightening"
+|dpn\_object\_id:| UUID |
+|local\_id:| Bla-repository-specific|
+|first\_node\_name:| source repository| 
+|replicating\_node\_names:| \[hathi, chron, sdr\] |
+|version\_number:| number |
+|previous\_version\_object\_id:| UUID to previous version |
+|forward\_version\_object\_id:| UUID to next version or nil |
+|first\_version\_object\_id:| UUID |
+|fixity\_algorithm:| sha256|
+|fixity\_value:| some sha256 value| 
+|last\_fixity\_date:| ISO 8601|
+|creation\_date:| ISO 8601 |
+|last\_modified\_date:| ISO 8601| 
+|bag\_size:| number of bytes of the serialized bag|
+|brightening\_object\_id:| \[UUID1... UUIDn\]|
+|rights\_object\_id:| reference to DPN and repository agreements \[UUID1 ... UUIDn\]|
+|object\_type:| "data" | "rights" | "brightening"|
 
- 
 
 Versioning
 ==========
