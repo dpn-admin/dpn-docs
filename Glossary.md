@@ -7,7 +7,8 @@ administrative node holds a contractual relationship with the Depositor.
 Only the Administrative node can make updates to the DPN registry entry
 for content. 
 
-##Administrative Restoration<span class="c0">:  In
+##Administrative Restoration: 
+- In
 the advent of a failure or withdrawal of an Administrative Node, another
 DPN node will work with the owners of particular DPN content to ensure
 they can gain access to the preservation package.
@@ -15,7 +16,8 @@ they can gain access to the preservation package.
 Stewardship of content owned by the exiting node is assigned
 elsewhere to make content available back to the depositor.
 
-##Auditing- Demonstrating that
+##Auditing
+- Demonstrating that
 DPN is providing the preservation services it has contracted to provide
 for DPN Members. Auditing will be done at several different levels,
 including object management, preservation actions and
@@ -68,16 +70,18 @@ members](https://www.google.com/url?q=http://www.dpn.org/members/&sa=D&ust=14695
 Initial DPN Depositors must all be Charter
 Members.
 
-##DPN Digital Object: AKA
+##DPN Digital Object:
+- AKA
 First Class Digital Object.
 
-##DPN Node: Content is held in
+##DPN Node: 
+- Content is held in
 DPN at nodes. These are individual organizations and institutions that
 provide storage and preservation actions for DPN Depositors. DPN will
 replicate the content from the Ingest Node (see below) to other DPN
 Nodes, also known as Replicating Nodes.
 
-##Federation##: 
+##Federation: 
 - The DPN administrative organization and all of the Ingest,
 Administrative, and Replicating nodes
 
@@ -94,34 +98,40 @@ Class Digital Object and is tracked via a registry entry.
 - See
 Ingest Node and Administrative Node
 
-##Fixity: Checking the fixity
+##Fixity: 
+- Checking the fixity
 of a digital object is the process of verifying that it has not been
 changed or corrupted.
 
-##In-Scope Services: A range
+##In-Scope Services: 
+- A range
 of services provided under contract to DPN in support of member data
 preservation. This includes: preservation of ingested content (ingest,
 bit level assurance of fixity, event monitoring, inventory reporting),
 replication services, registry services - including consistency and
 synchronization, and general system and service availability and
 customer response. Further definition is provided in section 5.1 of the
-SLA.  
+SLA. 
 
-##Ingest Node: DPN Depositors
+##Ingest Node: 
+- DPN Depositors
 will work directly with one or more DPN Nodes to negotiate contracts,
 determine service levels, and deposit materials. This node is known as
 the "Ingest Node" at deposit and “Administrative Node”
 afterwards.
 
-##Interpretive Bag: Contains
+##Interpretive Bag: 
+- Contains
 information, provided by the depositor, intended to provide context and
 instructions to interpret the content bag. 
 
-##Ingestion: The process of
+##Ingestion: 
+- The process of
 bringing DPN Depositor content into the network. Ingestion happens via a
 DPN Ingest Node.
 
-##Package:  Organizing and
+##Package: 
+- Organizing and
 grouping content into discrete units, particularly for storage and data
 transfer. DPN will be using Bags as an organizational unit. (See "Bag"
 above.)
@@ -129,31 +139,35 @@ above.)
 ##Recovery: (See ‘Restoration’
 and ‘Administrative Restoration.’)
 
-<span class="c0 c20">In the DPN context, recovery applies to two
+- In the DPN context, recovery applies to two
 contexts:
 
-1.  <span class="c20 c0">an Ingest Node loses a copy of its own content,
+1.  an Ingest Node loses a copy of its own content,
     or determines that it is partially or fully corrupt.
-2.  <span class="c0 c24">a Replication Node loses its copy of content
+2.  a Replication Node loses its copy of content
     held for an Ingest Node, or determines that it is partially of
     fully corrupt.
 
-##Registry: DPN will maintain
+##Registry: 
+- DPN will maintain
 a registry of replicated content to allow management of Digital Objects
 in the DPN network. It will track the identity, source, location of
 copies, previous version, legal agreements, and fixity of content in
 DPN. 
 
-##Replicating Node: DPN will
+##Replicating Node: 
+- DPN will
 replicate the content from the Ingest Node (see above) to other DPN
 Nodes, known as Replicating Nodes. Content in Replicating Nodes will be
 held “dark”, and inaccessible except for preservation actions. 
 
-##Restoration: The act of
+##Restoration: 
+- The act of
 returning content to the depositor.
 
 
-##Rights Bag: Contains
+##Rights Bag: 
+- Contains
 information, provided by the depositor, intended to document and assist
 interpretation of rights associated with objects in a content
 bag.
@@ -179,7 +193,8 @@ of: services, performance measurement, problem management, customer
 duties, warranties, disaster recovery, and provisions for termination of
 agreement.
 
-##Succession:  As a
+##Succession: 
+- As a
 preservation network for the academy and by the academy, content
 preserved in DPN will be covered by succession rights that will allow
 the content to be used in the future by the academy after the
@@ -187,7 +202,8 @@ dissolution of the source of the content. The current model for
 succession is via “Quit Claim”. 
 
 ##TDR (Trustworthy Digital
-Repository):  A repository certified as meeting TRAC
+Repository): 
+- A repository certified as meeting TRAC
 requirements.
 
 ##TRAC (Trusted Digital
