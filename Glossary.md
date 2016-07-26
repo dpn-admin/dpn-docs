@@ -16,14 +16,14 @@ they can gain access to the preservation package.
 Stewardship of content owned by the exiting node is assigned
 elsewhere to make content available back to the depositor.
 
-##Auditing
+##Auditing:
 - Demonstrating that
 DPN is providing the preservation services it has contracted to provide
 for DPN Members. Auditing will be done at several different levels,
 including object management, preservation actions and
 infrastructure.
 
-##Bag
+##Bag:
 - An individual
 preservation item stored in BagIt format (see below).
 
@@ -56,13 +56,13 @@ which DPN permanently removes deposited objects from the DPN federation.
 Deaccessioned objects are no longer accessible or recoverable from the
 DPN nodes.
 
-##Depositor:  
+##Depositor: 
 - An institution or
 organization working directly with an
 individual DPN Node to negotiate contracts, determine service levels,
 and deposit materials into DPN via the Ingest  Node (see below). 
 
-##DPN Charter Member:  
+##DPN Charter Member: 
 - An
 institution or organization contributing financially to establish and
 support DPN prior to June 30, 2013 (<span class="c7">[current
@@ -94,7 +94,7 @@ allows the item to persist, and allows other items to claim
 relationships with the item. A DPN content bag is considered a First
 Class Digital Object and is tracked via a registry entry.
 
-##First Node: (obsoleted) 
+##First Node: (obsolete) 
 - See
 Ingest Node and Administrative Node
 
@@ -136,8 +136,7 @@ grouping content into discrete units, particularly for storage and data
 transfer. DPN will be using Bags as an organizational unit. (See "Bag"
 above.)
 
-##Recovery: (See ‘Restoration’
-and ‘Administrative Restoration.’)
+##Recovery: (See ‘Restoration’ and ‘Administrative Restoration.’)
 
 - In the DPN context, recovery applies to two
 contexts:
@@ -201,19 +200,17 @@ the content to be used in the future by the academy after the
 dissolution of the source of the content. The current model for
 succession is via “Quit Claim”. 
 
-##TDR (Trustworthy Digital
-Repository): 
+##TDR (Trustworthy Digital Repository): 
 - A repository certified as meeting TRAC
 requirements.
 
-##TRAC (Trusted Digital
-Repositories and Audit Checklist):  
+##TRAC (Trusted Digital Repositories and Audit Checklist):  
 - A checklist of best practices for
 Trusted Digital Repositories built on the recommendations for TDR.
 [more
 info...](https://www.google.com/url?q=http://www.crl.edu/sites/default/files/attachments/pages/trac_0.pdf&sa=D&ust=1469578715639000&usg=AFQjCNEKapSGJlbuIfQUId1dAXmKaCLbXw)
 
-Trusted: 
+##Trusted: 
 - Node repositories
 are designated as “Trusted” by meeting audit and fixity criteria
 detailed in the SLA with DPN.
