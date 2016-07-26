@@ -805,4 +805,21 @@ Threat modeling as I'm familiar with it is a pretty extensive thing
 though so I'm having trouble figuring how to get to the right size for
 us.
 
+#### [Sebastien Korner]
 
+
+This is a great start on an important and **massive** topic. I couldn't
+check a box saying I had nothing more to add, but on the other hand if I
+had a week I'm sure I, and most others, could spend that week working on
+this. I'm not sure what the middle ground is.
+
+Chris, do you feel this document has enough detail now to have a
+productive conversation with, for example, your local security folks who
+have offered their assistance to DPN?
+
+A possibility for ensuring the document stays current is to require the
+sub-teams that take on responsibility for designing components of DPN
+consider it part of their charge to update the threat model page with
+entries relevant to what they are designing. This also ensures that the
+DPN folks most intimately aware of the design vulnerabilities of each
+component are channeling that knowledge here.
