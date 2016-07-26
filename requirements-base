@@ -1,0 +1,45 @@
+DPN requirements and assumptions
+In the development of the system, legal and technical constraints have been imposed that change some assumptions, as originally conceived. 
+Those changes do not affect the fundamental assumptions of the DPN concept.
+DPN is dark, geographically and technologically diverse replication, with individual and centralized audit and succession.
+
+"The intent of DPN remains the same. Build a system that ensures that deposited material remains available to future generations by architecting around single points of failure broadly conceived (i.e., technical failure, political failure, organizational failure, geographic failure)." 
+
+•	DPN is a federated preservation network of independent preservation archives
+  o	All archives act to preserve content, not just as remote storage.
+•	DPN has agreements to allow for Succession of content in the event an archive can no longer perform its function as an archive.
+  o	This is currently envisioned as a “Quit Claim” framework
+  o	Based on input from the legal team, comprised from the Node institutions, we will update recommendations
+  o	The successor of content will take on the responsibilities of and become the Administrative Node for the failed archive
+•	DPN, as much as possible, has independent preservation implementations at each node.
+•	DPN communications follow best practices and use mutual authentication over secure channels.
+•	DPN provides for replication of content from a Ingest Node to Replicating Nodes
+  o	DPN provides recovery of lost content at any Node
+  o	DPN core service keeps 3 copies of ingested objects
+•	DPN provides a service model so that any of the Nodes can ascertain if their content is valid.
+•	DPN enables centralized auditing
+  o	Process audit at the DPN federation
+  o	Process audit at the Node
+  o	Audit trails for events
+  o	DPN supports Content Fixity audit
+•	DPN provides status reporting, activity, logging, traffic, volume, events, etc.
+  o	Global (across federation)
+  o	At the Node level
+  o	Periodic Reporting 
+  o	Significant event reporting, for example succession events, loss of content, etc.
+•	DPN supports
+  o	a DPN UUID (globally unique identifier for each bag deposited)
+  o	a common lightweight wrapper (bag) for content transfer
+  o	retention of  ingested content indefinitely
+•	Content may be de-accessioned upon extenuating circumstances (e.g. court order)
+  o	duplication of critical metadata in the 'registry' and also in the content bags
+  o	durable and persistent communication methods to support unreliable networks and node failure
+  o	a distributed model, assuming eventual consistency (CAP Theorem) for replication of content and registries
+•	DPN content and services are distributed and federated.
+•	DPN supports succession and brightening of content.
+•	Implementations are de-coupled implementations and architecturally distinct, as practicable, but the communication methodology is shared, resilient, and redundant.
+•	DPN objects are preserved by all Nodes and support DPN preservation functions.
+•	DPN has decoupled inter-node communication channels for
+  o	content transfer
+  o	process control.
+•	Communication between nodes is not dependent upon other nodes.
