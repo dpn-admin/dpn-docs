@@ -644,7 +644,7 @@ Economic Failure
     replicating nodes. \
     
 
-Group Sign Off and Review {#group-sign-off-and-review style="text-decoration: none;"}
+Group Sign Off and Review 
 ---------------------------------------------------------------------------------------
 
 Indicate your
