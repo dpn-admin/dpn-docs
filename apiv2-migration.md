@@ -79,10 +79,10 @@ A new model representing a fixity check operation done on a bag by a node
 # New Fields
 +bag: UUID
 +node: String  
-+fixityCheckId: UUID   
++fixity_check_id: UUID   
 +success: Boolean  
-+fixityAt: DateTime  
-+createdAt: DateTime
++fixity_at: DateTime  
++created_at: DateTime
 ```
 
 ##### Ingest
