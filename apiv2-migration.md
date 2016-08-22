@@ -52,7 +52,7 @@ field_name: Type
 +accepted: Boolean
 +finished: Boolean
 +cancelled: Boolean
-+cancelReason: String
++cancel_reason: String
 ```
 
 ##### Message Digest
