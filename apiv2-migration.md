@@ -92,10 +92,10 @@ A new model representing the moment in time a bag is 'ingested' in DPN
 ```
 #New Fields
 +bag: UUID  
-+ingestId: UUID  
++ingest_id: UUID  
 +ingested: Boolean  
-+createdAt: DateTime  
-+replicatingNodes: List[String]  
++created_at: DateTime
++replicating_nodes: List[String]  
 ```
 
 #### Endpoint Updates
