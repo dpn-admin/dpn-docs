@@ -19,6 +19,15 @@ field_name: Type
 # Removed Fields
 -fixities: Map[String, String]
 ```
+
+##### Member
+
+```
+# Replaced Fields
+-uuid: UUID
++member_id: UUID
+```
+
 ##### Replication
 
 ```
