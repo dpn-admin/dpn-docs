@@ -165,6 +165,8 @@ calculating the fixity.
 * fixity; calculate fixity on the tagmanifest and update the replication
 
 When `store_requested=true`, I know I have all operations after the fixity is computed.
+I also want to query on `stored=false` so that I only get replications which are still
+ongoing.
 * untar; set `extracted=true` when finished
 * bag validation; if not valid we cancel, else set `validated=true`
 * push to repository; when this reports completion, set `pushed=true`. Could be renamed to
