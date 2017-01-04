@@ -6,20 +6,20 @@ SQLite databases for the cluster by running this command from the top-level dire
 of the project:
 
 ```
-./script/setup_cluster.sh
+./script/setup_cluster.rb
 ```
 
 If you have run the cluster before, and you have new database migrations to run, run
 this from the top-level directory of the prject:
 
 ```
-./script/migrate_cluster.sh
+./script/migrate_cluster.rb
 ```
 
 When the databases are ready, run the cluster with this command:
 
 ```
-./script/run_cluster.sh -f
+./script/run_cluster.rb -f
 ```
 
 The -f option loads all of the fixtures under test/fixtures/integration.
@@ -27,7 +27,7 @@ As long as your migrations are up to date, you can set up and run the cluster
 with a single command, like this:
 
 ```
-./script/setup_cluster.sh && ./script/run_cluster.sh -f
+./script/setup_cluster.rb && ./script/run_cluster.rb -f
 ```
 
 This will run five local DPN nodes on five different ports, each
@@ -68,7 +68,7 @@ substiting the token and port number as necessary. Note the format of the token
 header.
 
 ```
-curl -H "Authorization: Token token=sdr_token" -L http://localhost:3001/api-v1/bag/
+curl -H "Authorization: Token token=sdr_token" -L http://localhost:3001/api-v2/bag/
 ```
 
 You should see a JSON response with a list of bags. If you see a response that says
